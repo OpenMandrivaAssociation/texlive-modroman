@@ -1,3 +1,9 @@
+# revision 17778
+# category Package
+# catalog-ctan /macros/latex/contrib/modroman
+# catalog-date 2010-04-09 17:49:50 +0200
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-modroman
 Version:	1
 Release:	1
@@ -58,6 +64,7 @@ the same 5 is given as 'u'.
 %doc %{_texmfdistdir}/source/latex/modroman/README
 %doc %{_texmfdistdir}/source/latex/modroman/modroman.dtx
 %doc %{_texmfdistdir}/source/latex/modroman/modroman.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ the same 5 is given as 'u'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
