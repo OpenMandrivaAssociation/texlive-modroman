@@ -64,3 +64,17 @@ the same 5 is given as 'u'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-2
++ Revision: 754096
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
++ Revision: 719056
+- texlive-modroman
+- texlive-modroman
+- texlive-modroman
+- texlive-modroman
+
