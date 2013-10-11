@@ -1,12 +1,12 @@
-# revision 17778
+# revision 29803
 # category Package
 # catalog-ctan /macros/latex/contrib/modroman
-# catalog-date 2010-04-09 17:49:50 +0200
+# catalog-date 2012-07-07 22:27:26 +0200
 # catalog-license lppl
 # catalog-version 1
 Name:		texlive-modroman
 Version:	1
-Release:	2
+Release:	3
 Summary:	Write numbers in lower case roman numerals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modroman
@@ -64,17 +64,3 @@ the same 5 is given as 'u'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-2
-+ Revision: 754096
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
-+ Revision: 719056
-- texlive-modroman
-- texlive-modroman
-- texlive-modroman
-- texlive-modroman
-
