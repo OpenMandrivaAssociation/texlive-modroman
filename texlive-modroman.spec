@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-modroman
 Version:	1
-Release:	11
+Release:	12
 Summary:	Write numbers in lower case roman numerals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modroman
