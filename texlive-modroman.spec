@@ -3,7 +3,7 @@ Version:	29803
 Release:	2
 Summary:	Write numbers in lower case roman numerals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modroman
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/modroman
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modroman.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modroman.doc.r%{version}.tar.xz
